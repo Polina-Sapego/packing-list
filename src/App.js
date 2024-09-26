@@ -2,8 +2,6 @@ import './App.css';
 import AddComponent from "./Component/AddComponent.js";
 
 
-
-
 function App() {
   return (
     <div className="App">

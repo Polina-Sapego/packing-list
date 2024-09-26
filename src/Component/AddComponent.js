@@ -12,7 +12,6 @@ function AddComp() {
     const [inpNum, setInpNum] = useState(0);
     const [sort,setSort] = useState("order")
 
-
     function addTripinput(e) {
             setAddtripinput(e.target.value)
     }
@@ -32,7 +31,7 @@ function AddComp() {
 
     }
 
-    function Number(event) {
+    function setNumber(event) {
         setInpNum(event.target.value)
     }
 
@@ -43,7 +42,7 @@ function AddComp() {
     return(
         <div className='rectangle1'>
             <h2>What do you need for your trip?
-                <input className='inputnamber' value={inpNum} onChange={Number} type='number'/>
+                <input className='inputnamber' value={inpNum} onChange={setNumber} type='number'/>
                 <input className='oval-input' value={addtripinput} onChange={addTripinput} placeholder='Item..'/>
                 <button className='oval-button' onClick={addTrip}>ADD</button>
             </h2>

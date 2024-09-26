@@ -3,14 +3,9 @@ import './body.css'
 import {useState} from "react";
 
 
-
-
 function Body({trip, setItem, sort}) {
 
     const shiftRight = trip.length / 2
-
-
-
 
         const handleCheckboxChange = (id) => {
         const checkbox = trip.map((item, index) => {
@@ -44,8 +39,6 @@ function Body({trip, setItem, sort}) {
      <div>
          <ul className="body column-list">
 
-
-
              {sortedtrip.map((item, index) => (
                  <label >
                      <h1 key={item.id}
@@ -60,9 +53,7 @@ function Body({trip, setItem, sort}) {
                     <p className={item.packed ? 'check' : ''}>{item.inpNum} {item.addtripinput}</p>
                      </h1>
                  </label>
-
              ))}
-
          </ul>
 
      </div>
