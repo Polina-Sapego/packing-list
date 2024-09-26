@@ -1,0 +1,84 @@
+.body{
+    position: relative;
+    width: 1920px;           /* Ширина прямоугольника */
+    height: 320px;
+    top: 78px;
+    background-color: rgba(15, 132, 214, 0.17);
+}
+
+.column-list {
+
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 столбца одинаковой ширины */
+    grid-auto-rows: minmax(10px, 40px); /* Задаем высоту для строк */
+    gap: 20px; /* Отступы между элементами */
+
+
+}
+
+.column-list-item {
+    position: relative;
+    height: 20px;
+
+    width: 40%;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 50px;
+    left: 230px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.column-list-item:last-child {
+    border-bottom: none;
+}
+
+.shift-right{
+    right: 20%;
+}
+
+
+
+.oval1-button {
+    background-color: rgba(211, 133, 74, 0.47); /* Коричневый цвет */
+    color: #100f0f; /* Цвет текста */
+    padding: 10px 10px; /* Внутренние отступы для создания овальной формы */
+    border-radius: 60px; /* Радиус для создания овала */
+    border: none; /* Убираем границу */
+    font-size: 16px; /* Размер текста */
+    cursor: pointer; /* Курсор "указатель" при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    position: relative;
+    width: 150px;
+    height: 50px;
+
+    left: 180px;
+}
+
+.oval1-button:hover {
+    background-color: #A0522D; /* Более светлый коричневый при наведении */
+}
+
+.checkbox {
+    position: relative;
+    top: 33px;
+    left: -130px;
+    transform: scale(1.7);
+}
+
+.check {
+    text-decoration: line-through
+}
+
+.delute {
+    position: relative;
+    left: 140px;
+    top: 30px;
+    border: none;        /* Убирает границу */
+    outline: none;       /* Убирает обводку при фокусе */
+     /* Убирает тень */
+}

@@ -1,0 +1,82 @@
+
+.rectangle1 {
+    position: relative;
+    width: 1920px;           /* Ширина прямоугольника */
+    height: 120px;
+    background-color: rgba(248, 146, 8, 0.24);
+}
+
+h2 {
+    position: relative;
+    top: 40px;
+
+}
+
+/* OvalButton.css */
+.oval-button {
+    background-color: #7fa6bc; /* Голубой цвет */
+    color: white; /* Цвет текста */
+    padding: 10px 30px; /* Внутренние отступы для создания овальной формы */
+    border-radius: 50px; /* Радиус для создания овала */
+    border: none; /* Убираем границу */
+    font-size: 16px; /* Размер текста */
+    cursor: pointer; /* Курсор "указатель" при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    margin-left: 20px;
+}
+
+.oval-button:hover {
+    background-color: #0099cc; /* Изменение цвета при наведении */
+}
+
+.oval-input {
+    background-color: rgba(15, 132, 214, 0.17); /* Светло-голубой цвет фона */
+    color: #333; /* Цвет текста */
+    padding: 10px 20px; /* Внутренние отступы для создания овальной формы */
+    border-radius: 50px; /* Радиус для округления углов */
+    border: 2px solid rgba(4, 206, 243, 0.24); /* Голубая рамка */
+    outline: none; /* Убираем стандартный обвод при фокусе */
+    font-size: 16px; /* Размер текста */
+    width: 20%; /* Занимает всю ширину родительского элемента */
+    box-sizing: border-box; /* Учитывает рамку и отступы при расчете ширины */
+    transition: border-color 0.3s ease; /* Плавное изменение цвета рамки при фокусе */
+}
+
+.oval-input:focus {
+    border-color: rgba(248, 146, 8, 0.24); /* Изменение цвета рамки при фокусе */
+}
+
+.inputnamber {
+    background-color: rgba(15, 132, 214, 0.17); /* Светло-голубой цвет фона */
+    color: #333; /* Цвет текста */
+    padding: 10px 20px; /* Внутренние отступы для создания овальной формы */
+    border-radius: 50px; /* Радиус для округления углов */
+    border: 2px solid rgba(4, 206, 243, 0.24); /* Голубая рамка */
+    outline: none; /* Убираем стандартный обвод при фокусе */
+    font-size: 16px; /* Размер текста */
+    width: 4%; /* Занимает всю ширину родительского элемента */
+    box-sizing: border-box; /* Учитывает рамку и отступы при расчете ширины */
+    transition: border-color 0.3s ease; /* Плавное изменение цвета рамки при фокусе */
+}
+
+
+
+.oval-option {
+    background-color: rgba(211, 133, 74, 0.47); /* Коричневый цвет */
+    color: #100f0f; /* Цвет текста */
+    padding: 10px 10px; /* Внутренние отступы для создания овальной формы */
+    border-radius: 60px; /* Радиус для создания овала */
+    border: none; /* Убираем границу */
+    font-size: 16px; /* Размер текста */
+    cursor: pointer; /* Курсор "указатель" при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+    position: relative;
+    width: 150px;
+    height: 50px;
+
+    left: -190px;
+}
+
+.oval-option:hover {
+    background-color: rgb(112, 85, 51); /* Более светлый коричневый при наведении */
+}
